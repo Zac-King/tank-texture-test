@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="dep\bin\shaders\simpleShader.frag" />
+    <None Include="dep\bin\shaders\simpleShader.vert" />
+    <None Include="dep\bin\shaders\textureShader.frag" />
+    <None Include="dep\bin\shaders\fontShader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="cmathutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreDef.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="crenderutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDef.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformUpdate.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidbodyDynamics.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TankDynamics.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DependentClear.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTime.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTimeDynamics.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ccollisionutils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionRender.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticCollisionResponse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPrep.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicCollisionResponse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderSys.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRender.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cmathutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="crenderutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ccollisonutils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{8a3942fa-a7e7-4900-a65f-84bba083c49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{62066801-8ad6-483d-822d-48c40a2874cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{cc0d8b34-678e-4518-9ced-f80428c8ac8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{206b091b-07d1-4817-a143-ffa1e56b7f27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
